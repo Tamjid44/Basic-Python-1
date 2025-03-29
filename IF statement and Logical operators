@@ -1,0 +1,25 @@
+#------Logical If Statements----
+x = 56
+if x > 50 :
+    print("the number is Greater than 50")
+elif x < 50 :
+      print("The number is less than 50")
+else:
+      print("The number is equal to 50")
+
+
+
+#------Logical Operators-----
+a = 150
+b = 125
+c = 130
+#---This operation will check if any of the statements are true or not----
+#---If yes then it will print the output otherwise not---
+if (a > b and b < c):
+ print("both conditions are true")
+
+if (a < b or b < c):
+ print("At least one condition is true")
+
+if not (b==c):
+ print("Both conditions are false")
