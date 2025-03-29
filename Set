@@ -1,0 +1,6 @@
+#-------Practice on Set and Frozenset------
+my_set = {1,2,3,4,5,4,3,2,1,1,3}
+print(my_set)
+
+my_frozenset = frozenset([1,2,3,4,8])
+print(my_frozenset)
