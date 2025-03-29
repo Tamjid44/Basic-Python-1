@@ -1,0 +1,8 @@
+person = {
+    "Name" : "Tamjid",
+    "Age" : 25,
+    "City" : "Chattogram"
+}
+#---Changing a  Value----
+person["Age"] = 24
+print(person)
